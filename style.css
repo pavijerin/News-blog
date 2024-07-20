@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+    color: white;
+
+}
+
+h2{
+    font-size: 15px;
+    font-weight: 100px;
+    margin: 10px;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+    gap:5px;
+    margin-top: 20px;
+}
+.container > div{
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:end;
+    background-image: fixed;
+}
+.container > div:hover
+{
+    opacity: 0,7;
+}
+.container > div:nth-of-type(0)
+{
+    grid-column: 1/5;
+}
+.bg1
+{
+    background-image: url(https://www.aljazeera.com/wp-content/uploads/2024/07/AP24196181712201-1721328882.jpg?resize=730%2C410&quality=80);
+}
+.bg2
+{
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202407/sapling-plantation-144505145-16x9_0.jpg?VersionId=1..ULOXi8PJnMA3K5c7slgTuuJ9qZm9U&size=690:388);
+}
+.bg3
+{
+    background-image: url(https://img.onmanorama.com/content/dam/mm/en/kerala/kerala-rain-mansoon-ls1.jpg.transform/576x300/image.jpg);
+}
+.bg4
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4lFHtq4710bplPHLbcfRsw9V3p163ozSJLg&s);
+}
+.bg5
+{
+    background-image: url(https://c.ndtvimg.com/2024-07/lvijkrfo_lautaro-martinez-afp_625x300_15_July_24.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605);
+}
+.bg6
+{
+    background-image: url(https://i.ytimg.com/vi/kqGj31bQQQ0/maxresdefault.jpg);
+}
+.bg7
+{
+    background-image: url(https://m.economictimes.com/thumb/msid-111743698,width-1200,height-900,resizemode-4,imgsize-26178/hcl-tech-shares-surge-4-on-q1-profit-beat-time-to-hold-or-buy.jpg);
+}
+.bg8
+{
+    background-image: url(https://i.gadgets360cdn.com/large/oppo_reno_11_1707145375362.jpg);
+}
+.bg9
+{
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202407/experts-suggest-that-water-flossers-are-for-people-with-good-oral-hygiene-and-very-little-debris-and-114535540-16x9_0.jpg?VersionId=16a1kudCuzJ8Q97Tp9YHZS8yqv2F.QM7&size=690:388);
+}
+.bg10
+{
+    background-image: url(https://media.assettype.com/outlookindia/import/uploadimage/library/16_9/16_9_5/IMAGE_1689277044.webp?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true);
+}
+.bg11
+{
+    background-image: url(https://www.skymetweather.com/content/wp-content/uploads/2017/09/Delhi-1.jpg);
+}
+.bg12
+{
+    background-image: url(https://newsnetwork.mayoclinic.org/n7-mcnn/7bcc9724adf7b803/uploads/2017/12/121713-lung_lungsillustration-1024x768-original-1024x768.jpg);
+}
+.bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7,.bg8,.bg9,.bg10,.bg11,.bg12
+{
+
+    background-position: fixed;
+    background-size: cover;
+}
+.container div p a:hover
+{
+    color:rgb(255, 115, 0);
+}
+.container div p a
+{
+    color:white;
+    text-decoration: none;
+}
+.container div h2
+{
+    margin-right: 150px;
+    background-color: rgb(10, 3, 39);
+    color:white;
+    opacity: 0.5;
+}
+.container > div:nth-of-type(1)
+{
+    grid-column: 1/3;
+    grid-row: span 2;
+}
+.container > div:nth-of-type(10)
+{
+    grid-column: 1/3;
+    grid-row: span 2;
+}
+h2{
+    text-align: center;
+    text-shadow: rgb(241, 239, 239);
+    color:rgb(241, 223, 223);
+}
+.container div h2
+{
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.container > div:hover h2
+{
+    visibility: hidden;
+}
